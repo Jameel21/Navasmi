@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'Gilroy';
+    src: url("./fonts/Gilroy-Regular.ttf"),format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family:'Ekmuktha-bold' ;
+    src: url("./fonts/EkMukta-Bold.ttf"),format('truetype');
+    font-weight: 600;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* body {
+    font-family: "gilregular",sans-serif;
+    
+} */
+/* .gil{
+    font-family: gilroy;
+} */
+/* .gil-black{
+    font-family:gilroy-black ;
+} */
+
+  .transition-blur {
+     @apply transition-blur duration-2000 ease-in-out; } */
+
+    
+     .transition-scale { 
+        @apply transform transition-transform duration-2000 ease-in-out; 
+    }
+        .scale-start { 
+            transform: scale(1.5); 
+            transition-duration: 3s;
+         } 
+         .scale-end { 
+            transform: scale(1.25);  
+        } */
+
+        #homeBackground { 
+            width: 1440px; 
+             }
+        
+           
+ .hidecontent{
+    display: none;
+} 
+.showcontent{
+    display: block;
+}
