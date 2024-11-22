@@ -19,8 +19,8 @@ $(document).ready(function(){
 
      $(document).ready(function(){
          $("#homeBackground").css('transform', 'scale(1.5)').animate({}, { 
-            duration: 3000, step: function(now, fx) { if (fx.prop === 'transform') {
-                 let scaleValue = 1.5 - (0.5 * now); $(this).css('transform', `scale(${scaleValue})`); } },
+            duration: 2000, step: function(now, fx) { if (fx.prop === 'transform') {
+                 let scaleValue = 1.1 - (0.1 * now); $(this).css('transform', `scale(${scaleValue})`); } },
                   complete: function() {
          $(this).css('transform', 'scale(0.9)'); // Final scale value for zoom out effect 
          } }); });
