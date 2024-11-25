@@ -80,18 +80,18 @@ let currentIndex = 0;
 
  function benefitSlide(n) {
   let i;
-  let slides1 = document.getElementsByClassName("benefitSlide");
-  let dots = document.getElementsByClassName("dot1");
+  let slides1 = document.getElementsByClass(".benefitSlide");
+  let dots = document.getElementsByClass(".dot1");
   if (n > slides1.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides1.length}
   for (i = 0; i < slides1.length; i++) {
     slides1[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].class.replace(" active", "");
   }
   slides1[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].class += " active";
 } 
   
   

@@ -1,0 +1,56 @@
+.background-image{
+    background-image: url('./image/Header Banner 2.png');
+    position: absolute;
+    height:100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    animation-duration: 4s;
+    animation-name: scalein;
+}
+.benefit-slider1{
+    /* position: relative; */
+    width:404px ;
+    height:582px ;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    animation: slider 20s linear infinite;
+}
+@keyframes scalein{
+    0%{
+        scale: 1.0;
+    }
+    5%{
+        scale: 1.3;
+    }
+    100%{
+        scale: 1.0;
+    }
+ }
+ @keyframes slider {
+    0%{
+        background-image: url(/images/Image\ \ 3\ view.png);
+    
+    }
+    20%{
+        background-image: url(/images/Image\ 2\ view.png);
+    }
+    40%{
+        background-image: url(/images/Image\ 3\ view.png);
+    }
+    60%{
+        background-image: url(/images/Image\ \ 3\ view.png);
+    }
+    80%{
+        background-image: url(/images/Image\ 2\ view.png);
+    }
+    100%{
+        background-image: url(/images/Image\ 3\ view.png);
+    }
+
+ }
